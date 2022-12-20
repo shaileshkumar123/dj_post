@@ -54,7 +54,7 @@ class {{class_name}}(TestCase):
         self.assertEqual(response.status_code, 404)
         self.assertDictEqual(response, {"message": "", "error": "NOT_FOUND"})
 
-    def test_not_found(self):
+    def test_bad_request(self):
         """
             BAD_REQUEST/400 testcases
         """
