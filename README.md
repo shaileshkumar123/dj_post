@@ -7,11 +7,11 @@
 
 A template to create testcase file for django.
 
-# To Install
-# Activate from https://pub.dev
+## To Install
+## Activate from https://pub.dev
 dart pub global activate mason_cli
 
-# Or install from https://brew.sh
+## Or install from https://brew.sh
 brew tap felangel/mason
 brew install mason
 
