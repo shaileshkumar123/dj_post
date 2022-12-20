@@ -1,7 +1,4 @@
 # dj_post
-<p align="center">
-    Django Post Test
-</p>
 
 ---
 
