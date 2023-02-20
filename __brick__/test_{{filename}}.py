@@ -33,7 +33,7 @@ class {{class_name}}(TestCase):
         test_post_data = {
             # add post data here
         }
-        response = self.client.put(self.url, data=test_post_data, **{
+        response = self.client.post(self.url, data=test_post_data, **{
                               "HTTP_AUTHORIZATION": f"Bearer {self.token}"}, content_type="application/json")
         response = response.json()
         logger.info("Json OK Response  %s", response.json())
@@ -47,7 +47,7 @@ class {{class_name}}(TestCase):
         test_post_data = {
             # add post data here
         }
-        response = self.client.put(self.url, data=test_post_data, **{
+        response = self.client.post(self.url, data=test_post_data, **{
                               "HTTP_AUTHORIZATION": f"Bearer {self.token}"}, content_type="application/json")
         response = response.json()
         logger.info("Json OK Response  %s", response.json())
@@ -61,7 +61,7 @@ class {{class_name}}(TestCase):
         test_post_data = {
             # add post data here
         }
-        response = self.client.put(self.url, data=test_post_data, **{
+        response = self.client.post(self.url, data=test_post_data, **{
                               "HTTP_AUTHORIZATION": f"Bearer {self.token}"}, content_type="application/json")
         response = response.json()
         logger.info("Json OK Response  %s", response.json())
@@ -75,7 +75,7 @@ class {{class_name}}(TestCase):
         test_post_data = {
             # add post data here
         }
-        response = self.client.put(self.url, data=test_post_data, **{
+        response = self.client.post(self.url, data=test_post_data, **{
                               "HTTP_AUTHORIZATION": f"Bearer {self.token}"}, content_type="application/json")
         response = response.json()
         self.assertEqual(response.status_code, 409)
